@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Modal, Box, Button, Typography } from "@mui/material";
 
 const DescriptionModal = () => {
-    const [displayPopUp, setDisplayPopUp] = useState(true);
+    const [displayPopUp, setDisplayPopUp] = useState(false);
 
     // TODO - Fix this styling later
     const style = {
